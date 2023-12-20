@@ -1,0 +1,19 @@
+@media (max-width:767px) {
+    .main-nav {
+        display: none;
+    }
+
+    
+    
+}
+
+@media (min-width:1200px) {
+    .sub-nav-action:hover .cart-box {
+        opacity: 1;
+        visibility: visible;
+        transition: all ease .3s;
+        z-index: 99;
+    }
+}
+
+

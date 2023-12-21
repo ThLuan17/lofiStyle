@@ -966,3 +966,7 @@ p {
     z-index: 2;
     transition: all ease .5;
 }
+
+.footer {
+    background: #222;
+}

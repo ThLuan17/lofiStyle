@@ -3,7 +3,42 @@
         display: none;
     }
 
+    .banner-left {
+        margin-bottom: 24px;
+    }
+
+    .flash-sale-carousel-image:hover .second-image {
+        opacity: 0;
+        z-index: -1;
+        transition: none;
+    }
+
+    .product-new-item-image:hover .second-image {
+        opacity: 0;
+        z-index: -1;
+        transition: none;
+    }
+
+    .product-new-item-name a:hover {
+        color: #000000;
+        transition: none;
+    }
     
+    
+    .product-new-item-image:hover .product-new-action-cart { 
+        display: none;
+        z-index: 0;
+    }
+    
+    .product-new-action-cart .btn-views:hover {
+        background: #eb5757;
+    }
+    
+    .product-new-action-cart .btn-views:hover svg path,
+    .product-new-action-cart .btn-views:hover svg rect{
+        fill: #ffffff;
+        stroke: #ffffff;
+    }
     
 }
 
@@ -14,6 +49,8 @@
         transition: all ease .3s;
         z-index: 99;
     }
+
+    
 }
 
 
